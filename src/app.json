@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/contactList/main",
+    "pages/friendLoop/main",
+    "pages/logs/main",
+    "pages/indexIn/main",
+    "pages/me/main",
+    "pages/register/main",
+    "pages/login/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "JimmyChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#EA5149",
+    "list":[
+      {
+        "pagePath":"pages/index/main",
+        "text":"沟通"
+      },
+      {
+        "pagePath":"pages/contactList/main",
+        "text":"联系人"
+      },
+      {
+        "pagePath":"pages/friendLoop/main",
+        "text":"朋友圈"
+      },
+      {
+        "pagePath":"pages/me/main",
+        "text":"个人"
+      }
+
+    ]
+
+
+  }
+}
